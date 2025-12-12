@@ -1,6 +1,23 @@
-module(name = "swiftapp", version = "")
+module(
+    name = "swiftapp",
+    version = "1.0.0",
+)
 
 bazel_dep(name = "apple_support", version = "1.22.1")
 bazel_dep(name = "rules_apple", version = "4.0.1")
 bazel_dep(name = "rules_swift", version = "3.0.2")
 bazel_dep(name = "rules_xcodeproj", version = "3.0.0")
+bazel_dep(name = "rules_swift_package_manager", version = "1.11.0")
+
+# Define Swift packages
+swift_deps = use_extension(
+    "@rules_swift_package_manager//:extensions.bzl",
+    "swift_deps",
+)
+
+# Example: Add Alamofire networking library
+swift_deps.from_package(
+    resolved = "//:Package.resolved",
+    swift = "//:Package.swift",
+)
+use_repo(swift_deps, "swift_package", "swiftpkg_alamofire")

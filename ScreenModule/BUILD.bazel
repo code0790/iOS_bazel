@@ -1,0 +1,9 @@
+# ScreenModule/BUILD.bazel
+load("@rules_swift//swift:swift.bzl", "swift_library")
+
+swift_library(
+    name = "Screens",
+    module_name = "Screens",
+    srcs = glob(["Sources/*.swift"]),   # all Swift files in this [Sources] folder
+    visibility = ["//visibility:public"],  # allow other Bazel packages to depend on it
+)

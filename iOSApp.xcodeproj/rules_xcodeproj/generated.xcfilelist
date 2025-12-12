@@ -1,1 +1,2 @@
 $(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin/rules_xcodeproj/iOSApp/Info.plist
+$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin/external/rules_swift_package_manager++swift_deps+swiftpkg_alamofire/Alamofire.rspm_resource_bundle_accessor_ResourceBundleAccessor.swift

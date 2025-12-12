@@ -2,9 +2,14 @@ load("@rules_apple//apple:ios.bzl", "ios_application")
 load("@rules_swift//swift:swift.bzl", "swift_library")
 load("@rules_xcodeproj//xcodeproj:defs.bzl", "top_level_target", "xcodeproj")
 
+
 swift_library(
     name = "lib",
     srcs = glob(["Sources/*.swift"]),
+    deps = [
+        "//ScreenModule:Screens",      # <-- REQUIRED
+        "@swiftpkg_alamofire//:Alamofire",
+    ],
 )
 
 ios_application(
@@ -13,7 +18,11 @@ ios_application(
     families = ["iphone"],
     infoplists = ["Info.plist"],
     minimum_os_version = "17.0",
-    deps = [":lib"],
+    deps = [
+        ":lib",
+        "//ScreenModule:Screens",
+        "@swiftpkg_alamofire//:Alamofire",
+        ],
     visibility = ["//visibility:public"],
 )
 
