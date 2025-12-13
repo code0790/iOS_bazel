@@ -15,9 +15,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "01004B416398000000000001"
-                     BuildableName = "Screens"
+                     BuildableName = "libScreens.a"
                      BlueprintName = "Screens"
-                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -31,9 +31,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "01004B416398000000000001"
-                     BuildableName = "Screens"
+                     BuildableName = "libScreens.a"
                      BlueprintName = "Screens"
-                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -49,9 +49,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01004B416398000000000001"
-               BuildableName = "Screens"
+               BuildableName = "libScreens.a"
                BlueprintName = "Screens"
-               ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+               ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

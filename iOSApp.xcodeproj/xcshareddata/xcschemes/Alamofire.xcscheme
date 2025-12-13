@@ -15,9 +15,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "0200F9DB26B2000000000001"
-                     BuildableName = "Alamofire"
+                     BuildableName = "libAlamofire.rspm.a"
                      BlueprintName = "Alamofire"
-                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -31,9 +31,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "0200F9DB26B2000000000001"
-                     BuildableName = "Alamofire"
+                     BuildableName = "libAlamofire.rspm.a"
                      BlueprintName = "Alamofire"
-                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -49,9 +49,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0200F9DB26B2000000000001"
-               BuildableName = "Alamofire"
+               BuildableName = "libAlamofire.rspm.a"
                BlueprintName = "Alamofire"
-               ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+               ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

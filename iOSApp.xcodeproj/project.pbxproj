@@ -224,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FFB62A843957DE2B20C5E6 /* Product.swift in Sources */,
+				00FF3DFFAD769A254752A7CE /* ProductData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +659,7 @@
 			children = (
 				FE7EB51321975991B62FF718 /* BUILD.bazel */,
 				FE652EF42A27E044294C34EA /* Product.swift */,
+				FE3CCEFDF8CF7CD0FDBEF58A /* ProductData.swift */,
 			);
 			path = CoreModels;
 			sourceTree = "<group>";
@@ -717,6 +719,7 @@
 		};
 		FE34172DA285058B948DF0F2 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		FE349DB8EB1D72E9047D191C /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		FE3CCEFDF8CF7CD0FDBEF58A /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
 		FE414F513D5621C07C20B88C /* AlamofireExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireExtended.swift; sourceTree = "<group>"; };
 		FE47249F16CBE195736762FD /* Bazel Generated */ = {
 			isa = PBXGroup;
@@ -848,6 +851,7 @@
 			path = ../../external;
 			sourceTree = SOURCE_ROOT;
 		};
+		00FF3DFFAD769A254752A7CE /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3CCEFDF8CF7CD0FDBEF58A /* ProductData.swift */; };
 		00FFB62A843957DE2B20C5E6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE652EF42A27E044294C34EA /* Product.swift */; };
 		01FFCFE12977A70FE6A8A6AE /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE02869DAC4E70B3BB015850 /* Login.swift */; };
 		02FF12C52E315C7234E058C4 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE726CCDC98918CACE7D8B33 /* Response.swift */; };

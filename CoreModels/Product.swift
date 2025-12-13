@@ -1,22 +1,21 @@
-// Model
+//
+//  ProductData.swift
+//  CoreModels
+//
+//  Created by navpreet on 13-12-2025.
+//
+
+import Foundation
+
 public struct Product: Codable, Identifiable, Hashable {
+    public static func == (lhs: Product, rhs: Product) -> Bool {
+        true
+    }
+    
+    
     public let id: String
     public let name: String
-    //let data: ProductData
+    public let data: ProductData
 }
 
-//struct ProductData: Codable {
-//    let color: String?
-//    let capacityGB: Int?
-//    let capacity: String?
-//    let price: Double?
-//    let screenSize: Double?
-//
-//    enum CodingKeys: String, CodingKey {
-//        case color
-//        case capacityGB = "capacity GB"
-//        case capacity = "Capacity"
-//        case price
-//        case screenSize = "Screen size"
-//    }
-//}
+
