@@ -14,10 +14,10 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "00004B416398000000000001"
-                     BuildableName = "libScreens.a"
+                     BlueprintIdentifier = "01004B416398000000000001"
+                     BuildableName = "Screens"
                      BlueprintName = "Screens"
-                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -30,10 +30,10 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "00004B416398000000000001"
-                     BuildableName = "libScreens.a"
+                     BlueprintIdentifier = "01004B416398000000000001"
+                     BuildableName = "Screens"
                      BlueprintName = "Screens"
-                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -48,10 +48,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00004B416398000000000001"
-               BuildableName = "libScreens.a"
+               BlueprintIdentifier = "01004B416398000000000001"
+               BuildableName = "Screens"
                BlueprintName = "Screens"
-               ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+               ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

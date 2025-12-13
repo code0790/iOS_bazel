@@ -1,7 +1,13 @@
 import SwiftUI
+import CoreModels
 
 public struct ScreenView: View {
-    public init() {}  // public init so other modules can construct it
+    
+    var product: Product
+    
+    public init(product: Product) {
+        self.product = product
+    }
 
     public var body: some View {
         VStack(spacing: 20) {
@@ -9,8 +15,9 @@ public struct ScreenView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
 
-            Text("This is a reusable SwiftUI screen module.")
+            Text(product.name)
                 .foregroundColor(.secondary)
+                .font(.headline)
 
             Button(action: {
                 print("Button tapped!")

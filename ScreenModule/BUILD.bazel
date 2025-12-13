@@ -6,4 +6,7 @@ swift_library(
     module_name = "Screens",
     srcs = glob(["Sources/*.swift"]),   # all Swift files in this [Sources] folder
     visibility = ["//visibility:public"],  # allow other Bazel packages to depend on it
+    deps = [
+        "//CoreModels:CoreModels",
+    ],
 )

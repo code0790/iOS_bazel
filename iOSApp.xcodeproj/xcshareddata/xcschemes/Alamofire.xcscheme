@@ -14,10 +14,10 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "0100F9DB26B2000000000001"
-                     BuildableName = "libAlamofire.rspm.a"
+                     BlueprintIdentifier = "0200F9DB26B2000000000001"
+                     BuildableName = "Alamofire"
                      BlueprintName = "Alamofire"
-                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -30,10 +30,10 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "0100F9DB26B2000000000001"
-                     BuildableName = "libAlamofire.rspm.a"
+                     BlueprintIdentifier = "0200F9DB26B2000000000001"
+                     BuildableName = "Alamofire"
                      BlueprintName = "Alamofire"
-                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -48,10 +48,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0100F9DB26B2000000000001"
-               BuildableName = "libAlamofire.rspm.a"
+               BlueprintIdentifier = "0200F9DB26B2000000000001"
+               BuildableName = "Alamofire"
                BlueprintName = "Alamofire"
-               ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+               ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

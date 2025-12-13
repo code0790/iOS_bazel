@@ -12,6 +12,13 @@ swift_library(
     ],
 )
 
+swift_library(
+    name = "CoreModels",
+    module_name = "CoreModels",
+    srcs = ["Sources/Product.swift"],
+    visibility = ["//visibility:public"],
+)
+
 ios_application(
     name = "iOSApp",
     bundle_id = "build.bazel.rules-apple-example",
@@ -20,8 +27,6 @@ ios_application(
     minimum_os_version = "17.0",
     deps = [
         ":lib",
-        "//ScreenModule:Screens",
-        "@swiftpkg_alamofire//:Alamofire",
         ],
     visibility = ["//visibility:public"],
 )

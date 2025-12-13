@@ -18,15 +18,11 @@ _TRIPLE_MATCH = re.compile(r"([^-]+-[^-]+)(-\D+)[^-]*(-.*)?")
 
 _SETTINGS = {
     "x86_64-apple-ios-simulator iOSApp.app/iOSApp": {
-        "c": "-iquote$(PROJECT_DIR) -iquote$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin -O0 -DDEBUG=1 -fstack-protector -fstack-protector-all -iquote$(PROJECT_DIR) -iquote$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin -O0 -fstack-protector -fstack-protector-all -iquote$(PROJECT_DIR) -iquote$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin -DSWIFT_PACKAGE -O0 -fstack-protector -fstack-protector-all",
-        "f": [
-            "$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks",
-            "$(SDKROOT)/Developer/Library/Frameworks",
-        ],
+        "c": "-iquote$(PROJECT_DIR) -iquote$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin -O0 -DDEBUG=1 -fstack-protector -fstack-protector-all",
         "s": [
+            "$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin/CoreModels",
             "$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin/ScreenModule",
             "$(BAZEL_OUT)/ios_x86_64-dbg-ios-x86_64-min17.0-applebin_ios-ST-7f27d8c718c1/bin/external/rules_swift_package_manager++swift_deps+swiftpkg_alamofire",
-            "$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/usr/lib",
         ],
     },
 }

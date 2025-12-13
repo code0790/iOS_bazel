@@ -14,10 +14,10 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "02007310C9F0000000000001"
-                     BuildableName = "liblib.a"
-                     BlueprintName = "lib"
-                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     BlueprintIdentifier = "0000BBED9C3A000000000001"
+                     BuildableName = "CoreModels"
+                     BlueprintName = "CoreModels"
+                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -30,10 +30,10 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "02007310C9F0000000000001"
-                     BuildableName = "liblib.a"
-                     BlueprintName = "lib"
-                     ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+                     BlueprintIdentifier = "0000BBED9C3A000000000001"
+                     BuildableName = "CoreModels"
+                     BlueprintName = "CoreModels"
+                     ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -48,10 +48,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02007310C9F0000000000001"
-               BuildableName = "liblib.a"
-               BlueprintName = "lib"
-               ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
+               BlueprintIdentifier = "0000BBED9C3A000000000001"
+               BuildableName = "CoreModels"
+               BlueprintName = "CoreModels"
+               ReferencedContainer = "container:../../../../../../../../Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

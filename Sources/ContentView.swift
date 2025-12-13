@@ -1,6 +1,7 @@
 import SwiftUI
 import Alamofire
-
+import Screens
+import CoreModels
 
 public class NetworkManager {
     public init() {}
@@ -31,48 +32,42 @@ public class NetworkManager {
 struct ContentView: View {
     @StateObject private var viewModel = UserViewModel()
 
-     func main() {
-        Task {
-            let manager = NetworkManager()
-            
-            do {
-                let data = try await manager.fetchData(
-                    from: "https://api.restful-api.dev/objects/7"
-                )
-                print("Fetched \(data.count) bytes")
-            } catch {
-                print("Error: \(error)")
-            }
-        }
-        
-        // Keep the program running
-        RunLoop.main.run()
-    }
-
     var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "hammer.fill")
-                .font(.system(size: 60))
-                .foregroundColor(.blue)
-            
-            // Text("Hello, SwiftUI!")
-            //     .font(.largeTitle)
-            //     .fontWeight(.bold)
-            
-            Text("Built with Bazell")
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-
-            List(viewModel.users, id: \.id) { user in
-                Text(user.name)
+        NavigationStack(path: $viewModel.path) {
+            VStack(spacing: 20) {
+                Image(systemName: "hammer.fill")
+                    .font(.system(size: 60))
+                    .foregroundColor(.blue)
+                
+                Text("Hello, SwiftUI!")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                
+                Text("Built with Bazell")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                
+                if viewModel.isLoading {
+                    ProgressView("Loading...")
+                } else {
+                    List(viewModel.products, id: \.id) { product in
+                        Button(product.name) {
+                            viewModel.didSelect(prod: product)
+                        }
+                    }
+                    
+                }
+                
+                Button("Load Users") {
+                    Task {
+                        await viewModel.loadProducts()
+                    }
+                }
             }
-
-            Button("Load Users") {
-                viewModel.loadUsers()
-
-                main()
+            .padding()
+            .navigationDestination(for: Product.self) { get in
+                ScreenView(product: get)
             }
         }
-        .padding()
     }
 }

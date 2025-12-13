@@ -14,7 +14,7 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "0100299CB630000000000001"
+                     BlueprintIdentifier = "0200299CB630000000000001"
                      BuildableName = "iOSApp.app"
                      BlueprintName = "iOSApp"
                      ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
@@ -30,7 +30,7 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "0100299CB630000000000001"
+                     BlueprintIdentifier = "0200299CB630000000000001"
                      BuildableName = "iOSApp.app"
                      BlueprintName = "iOSApp"
                      ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
@@ -48,7 +48,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0100299CB630000000000001"
+               BlueprintIdentifier = "0200299CB630000000000001"
                BuildableName = "iOSApp.app"
                BlueprintName = "iOSApp"
                ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
@@ -87,7 +87,7 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "0100299CB630000000000001"
+                     BlueprintIdentifier = "0200299CB630000000000001"
                      BuildableName = "iOSApp.app"
                      BlueprintName = "iOSApp"
                      ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
@@ -100,7 +100,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0100299CB630000000000001"
+            BlueprintIdentifier = "0200299CB630000000000001"
             BuildableName = "iOSApp.app"
             BlueprintName = "iOSApp"
             ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
@@ -134,7 +134,7 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "0100299CB630000000000001"
+                     BlueprintIdentifier = "0200299CB630000000000001"
                      BuildableName = "iOSApp.app"
                      BlueprintName = "iOSApp"
                      ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
@@ -147,7 +147,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0100299CB630000000000001"
+            BlueprintIdentifier = "0200299CB630000000000001"
             BuildableName = "iOSApp.app"
             BlueprintName = "iOSApp"
             ReferencedContainer = "container:/Users/navpreet/Downloads/swiftapp/iOSApp.xcodeproj">
